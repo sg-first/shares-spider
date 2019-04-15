@@ -21,4 +21,6 @@ def gethtml(url):
     html = html.decode('UTF8')
     return html
 
+
 print(gethtml(geturl(1)))
+

@@ -1,4 +1,5 @@
 import csv
+import json
 
 def readCsv(path):
     birth_data = []
@@ -13,7 +14,7 @@ def readCsv(path):
 def writeFile(filePath, content):
     print('Write info to file:Start...')
     # 将文件内容写到文件中
-    with open(filePath, 'a', encoding='utf-8') as f:
+    with open(filePath, 'a', encoding='gbk') as f:
         f.write(content)
         print('Write info to file:end...')
 
