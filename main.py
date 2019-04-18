@@ -27,4 +27,4 @@ for i in strData:
     print(i)
 
 
-csvIO.saveCsv('D:/pycharm/表.csv',all)
+csvIO.saveCsv('表.csv',all)
